@@ -30,7 +30,7 @@ namespace LogicGatesConsole
             {
                 Console.WriteLine(comp.description());
             }
-            Console.WriteLine("Sink is " + ((composants[3]).getState() ? "on" : "off"));
+            Console.WriteLine((composants[3]).getId() + " is " + ((composants[3]).getState() ? "on" : "off"));
 
             ((Switch)composants[0]).on();
             ((Switch)composants[1]).off();
@@ -38,7 +38,7 @@ namespace LogicGatesConsole
             {
                 Console.WriteLine(comp.description());
             }
-            Console.WriteLine("Sink is " + ((composants[3]).getState() ? "on" : "off"));
+            Console.WriteLine((composants[3]).getId() + " is " + ((composants[3]).getState() ? "on" : "off"));
 
             ((Switch)composants[0]).off();
             ((Switch)composants[1]).on();
@@ -46,7 +46,7 @@ namespace LogicGatesConsole
             {
                 Console.WriteLine(comp.description());
             }
-            Console.WriteLine("Sink is " + ((composants[3]).getState() ? "on" : "off"));
+            Console.WriteLine((composants[3]).getId() + " is " + ((composants[3]).getState() ? "on" : "off"));
 
             ((Switch)composants[0]).on();
             ((Switch)composants[1]).on();
@@ -54,7 +54,7 @@ namespace LogicGatesConsole
             {
                 Console.WriteLine(comp.description());
             }
-            Console.WriteLine("Sink is " + ((composants[3]).getState() ? "on" : "off"));
+            Console.WriteLine((composants[3]).getId() + " is " + ((composants[3]).getState() ? "on" : "off"));
 
             //Close
             Console.WriteLine("Press any key to continue...");

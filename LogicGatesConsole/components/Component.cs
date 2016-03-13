@@ -8,9 +8,14 @@ namespace LogicGatesConsole.components
 {
     abstract class Component
     {
+        protected static int instances = 0;
+        protected int id;
+
+        public Component() { instances++; id = instances; }
+
         public String getId()
         {
-            return base.ToString();
+            return GetType().Name.ToString() + id;
         }
 
         public virtual String description()

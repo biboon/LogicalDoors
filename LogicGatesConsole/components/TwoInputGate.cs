@@ -27,7 +27,7 @@ namespace LogicGatesConsole.components
 
         public override String description()
         {
-            return base.description() + "input1: " + ((input1 != null) ? input1.getId() : "not connected") + "input2: " + ((input2 != null) ? input2.getId() : "not connected");
+            return base.description() + " input1: " + ((input1 != null) ? input1.getId() : "not connected") + ", input2: " + ((input2 != null) ? input2.getId() : "not connected");
         }
 
         public override bool getState()
