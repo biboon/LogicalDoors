@@ -46,10 +46,14 @@
     <Compile Include="components\And.cs" />
     <Compile Include="components\Component.cs" />
     <Compile Include="components\Gate.cs" />
+    <Compile Include="components\Integrated.cs" />
+    <Compile Include="components\IOPin.cs" />
+    <Compile Include="components\IPin.cs" />
     <Compile Include="components\Nand.cs" />
     <Compile Include="components\Nor.cs" />
     <Compile Include="components\Not.cs" />
     <Compile Include="components\NotConnectedException.cs" />
+    <Compile Include="components\OPin.cs" />
     <Compile Include="components\Or.cs" />
     <Compile Include="components\Sink.cs" />
     <Compile Include="components\Switch.cs" />

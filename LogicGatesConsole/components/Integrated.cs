@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LogicGatesConsole.components
 {
-    abstract class Gate : Component
+    class Integrated : Component
     {
+
+        public override bool getState()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

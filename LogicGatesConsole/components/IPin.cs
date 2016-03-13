@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicGatesConsole.components
 {
-    abstract class Gate : Component
+    class IPin : IOPin
     {
     }
 }
