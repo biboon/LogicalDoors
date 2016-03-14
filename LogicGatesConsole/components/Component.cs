@@ -13,6 +13,11 @@ namespace LogicGatesConsole.components
 
         public Component() { instances++; id = instances; }
 
+        public int Serial
+        {
+            get { return id; }
+        }
+
         public String getId()
         {
             return GetType().Name.ToString() + id;
